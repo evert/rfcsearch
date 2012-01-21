@@ -1,5 +1,5 @@
 function installProvider() {
 
-    window.external.AddSearchProvider("/osd.xml");
+    window.external.AddSearchProvider("/osd.php");
 
 }
