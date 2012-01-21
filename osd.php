@@ -14,7 +14,7 @@ echo '<?xml version="1.0" encoding="UTF-8" ?>' . "\n";
 	<Developer>Evert Pot</Developer>
     <Contact>evert@rooftosolutions.nl</Contact>
     <SyndicationRight>open</SyndicationRight>
-    <Image width="16" height="16">http://tools.ietf.org/images/rfc.png</Image>
+    <Image width="16" height="16">http://rfcsearch.phpfogapp.com/rfc.png</Image>
     <Url type="text/html" method="GET" template="http://rfcsearch.phpfogapp.com/search.php">  
         <Param name="q" value="{searchTerms}"/>
     </Url> 

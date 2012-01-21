@@ -1,5 +1,5 @@
 function installProvider() {
 
-    window.external.AddSearchProvider("/osd.php");
+    window.external.AddSearchProvider("http://rfcsearch.phpfogapp.com/osd.php");
 
 }
