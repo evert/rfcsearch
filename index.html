@@ -1,5 +1,41 @@
-<h1>RFC search provider</h1>
+<!DOCTYPE html!>
+<head>
+    <title>RFC search</title>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <h1>RFC search provider</h1>
 
-<p>This application provides a very simple rfc search provider. By installing it, you can quickly look up rfc's by for example entering 'rfc http' in the address bar.</p>
+    <p>This application provides a very simple rfc search provider.</p>
 
-<p>Currently only tested on Firefox</p>
+    <h2>Usage</h2>
+
+    <section>
+    <ol>
+        <li>First install the search provider, you can do this here: <button onclick="installProvider();">Install</button></li>
+        <li>Then (in firefox) go to 'Manage Search Engines', and add the 'rfc' keyword for this search provider.</li>
+        <li>Now you can easily search for rfcs by typing 'rfc [keyword]' in your addressbar. Examples:
+            <ol>
+                <li>rfc http</li>
+                <li>rfc 2616</li>
+                <li>rfc webdav</li>
+            </ol>
+        </li>
+    </ol>
+    </section>
+
+    <h2>Try out the search</h2>
+
+    <section>
+    <p>You can try searching from this page too:</p>
+
+    <form action="search.php" method="get">
+        <input type="search" name="q" value="" size="60" />
+        <button type="submit">Search</button>
+    </form>
+
+    </section>
+
+    <p>Created by <a href="http://www.rooftopsolutions.nl/">Evert Pot</a>. <a href="https://github.com/evert/rfcsearch">Fork this on github</a>.</p>
+
+</body>
