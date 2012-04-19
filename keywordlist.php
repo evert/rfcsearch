@@ -30,6 +30,8 @@ return array(
     'imip'       => 6047,
     'itip'       => 5546,
 
+    'mkcol'      => 5689,
+
     'smtp'       => 2821,
 
     'vcard'      => 6350,
