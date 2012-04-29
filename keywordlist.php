@@ -37,6 +37,7 @@ return array(
     'vcard'      => 6350,
 
     'websocket'  => 6455,
+    'webdav acl' => 3744,
 
 );
 
