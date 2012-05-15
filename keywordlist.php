@@ -38,6 +38,7 @@ return array(
 
     'websocket'  => 6455,
     'webdav acl' => 3744,
+    'webdav sync'=> 6578,
 
 );
 
