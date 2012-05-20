@@ -11,7 +11,6 @@ function search($keyword) {
 
     }
 
-    die($keyword);
     // This file contains a list of known keywords, or keywords that yield 
     // incorrect results from google.
     $keywordList = include 'keywordlist.php';
