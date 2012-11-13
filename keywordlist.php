@@ -20,6 +20,7 @@ return array(
 
     'cookie'         => 2965,
 
+    'deltav'         => 3253,
     'digest'         => 2617,
     'digest auth'    => 2617,
 
